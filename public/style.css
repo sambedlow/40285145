@@ -1,0 +1,168 @@
+body {
+	background-image: url(blog-background.png);
+}
+
+.form-controlP {
+	width: 800px;
+	height: 100px;
+	text-align: left;
+}
+
+.form-controlP td {
+	position: absolute;
+	top: 20px;
+}
+
+.container {
+	background-color: #B3F9FE;
+	margin-top: 200px;
+	margin-left: 10px;
+	font-family: "Georgia", serif;
+	padding: 20px;
+}
+
+.container h1 {
+	margin-bottom: 60px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.table textarea {
+	padding: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+    border-radius: 20px;
+    font-size: 14px;
+	
+}
+
+.btnP {
+	background-color: darkblue;
+	color: white;
+	font-size: 20px;
+}
+
+.btnR {
+	background-color: red;
+	color: white;
+	font-size: 20px;
+}
+
+.btnE {
+	background-color: orange;
+	color: white;
+	font-size: 20px;
+}
+
+.btnU {
+	background-color: green;
+	color: white;
+	font-size: 20px;
+}
+
+.btnC {
+	background-color: grey;
+	color: white;
+	font-size: 15px;
+}
+
+//HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER
+
+#header {
+	background-color: #75DCE3;
+	height: 80px;
+	margin-bottom: 10px;
+}
+
+.title {
+	margin-top: 10px;
+	color: black;
+	font-size: 36px;
+	padding-top: 17.5px;
+	text-align: center;
+	font-family: Luminari, fantasy;
+	font-style: oblique;
+	background-color: white;
+}
+
+.logo {
+	position: relative;
+	margin-left: 50px;
+	margin-top: -80px;
+}
+
+#socialmedia li {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	margin-top: -80px;
+
+}
+
+.twitter {
+	width: 25px;
+	height: 25px;
+	padding: 20px;
+}
+
+.instagram {
+	width: 25px;
+	height: 25px;
+	padding: 20px;
+}
+
+.facebook {
+	width: 25px;
+	height: 25px;
+	padding: 20px;
+}
+
+.youtube {
+	width: 25px;
+	height: 25px;
+	padding: 20px;
+}
+
+.twitch {
+	width: 25px;
+	height: 25px;
+	padding: 20px;
+}
+
+.snapchat {
+	width: 25px;
+	height: 25px;
+	padding:20px;
+}
+
+.twitter:hover {
+	background-color: lightblue;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.instagram:hover {
+	background-color: lightblue;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.youtube:hover {
+	background-color: lightblue;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.facebook:hover {
+	background-color: lightblue;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.twitch:hover {
+	background-color: lightblue;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.snapchat:hover {
+	background-color: lightblue;
+	border-radius: 20px 20px 20px 20px;
+}
+

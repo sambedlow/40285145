@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Blog Post</title>
+</head>
+<body>
+		<div id="header"> 
+		<div class="title">- Bedz -</div>
+		<div id="socialmedia">
+			<ul>
+				<li>
+					<a href="https://twitter.com/SBeDz_"><img src="twitterlogo.png" alt="Twitter" class="twitter"></a>
+					<a href="https://www.instagram.com/sambedlow_/"><img src="instagramlogo.png" alt="Instgram" class="instagram"></a>
+					<a href="https://www.youtube.com/user/SmashCookie"><img src="youtubelogo.png" alt="Youtube" class="youtube"></a>
+					<a href="https://www.facebook.com/profile.php?id=1777072429"><img src="facebooklogo.png" alt="Facebook" class="facebook"></a>
+					<a href="https://www.twitch.tv/sbedz"><img src="twitch.png" alt="Twitch" class="twitch"></a>
+					<a href="https://sammybederz.com"><img src="snapchatlogo.png" alt="Snapchat" class="snapchat"></a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="logo"><img src="twitch logo.jpg" width="60" height="60">
+		</div>
+	</div>
+	<div class="container" ng-controller="AppCtrl">
+		<h1>Blog Post</h1>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Post</th>
+					<th>Date</th>
+					<th>Action</th>
+					<th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input class="form-controlN" ng-model="contact.name"></td>
+					<td><textarea class="form-controlP" ng-model="contact.post"></textarea></td>
+					<td><input class="form-controlD" ng-model="contact.date"></td>
+					<td><button class="btnP" ng-click="addContact()">Post Blog</button></td>
+					<td><button class="btnU" ng-click="update()">Update</button>&nbsp;&nbsp;<button class="btnC" ng-click="deselect()">Clear</button></td>
+				</tr>
+				<tr ng-repeat="contact in contactlist">
+					<td>{{contact.name}}</td>
+					<td>{{contact.post}}</td>
+					<td>{{contact.date}}</td>
+					<td><button class="btnR" ng-click="remove(contact._id)">Remove</button></td>
+					<td><button class="btnE" ng-click="edit(contact._id)">Edit</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+	<script src="controllers/controller.js"></script>
+</body>
+</html>
